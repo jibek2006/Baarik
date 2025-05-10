@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.main{
+    background-image: url(./assets/herobg.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 820px;
+    padding: 30px;
+    background-color: #dbe9e7;
+    background-size:contain;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+}
+
+nav img{
+    width: 166px;
+    height: 48px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #051F30;
+}
+
+nav button{
+    width: 130px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: #123E47;
+    color: #FFFFFF;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+nav button:hover{
+    background-color: black;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+main h1{
+    font-weight: 100;
+    margin-left: -350px;
+    width: 850px;
+    font-weight: 500;
+    font-size:50px;
+    line-height: 55px;
+    margin-bottom: 70px;
+    color: #051F30;
+    margin-top: 250px;
+}
+
+.ariza{
+    width: 210px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #123E47;
+    color: #FFFFFF;
+    font-size: 15px;
+    cursor: pointer;
+    font-size: 25px;
+    margin-left: -950px;
+}
+
+.dropdown{
+    position: relative;
+    cursor: pointer;
+}
+
+.dropdownel{
+    display: none;
+    position: absolute;
+}
+
+li:hover{
+    background-color: burlywood;
+}
+
+.dropdown:hover .dropdownel{
+    display: block;
+    background-color: antiquewhite;
+}
