@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.sectionMiddle {
+  background-color: #f5f5f5;
+}
+.itemBox {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 15px;
+  height: 100px;
+  align-items: center;
+  width: 450px;
+  margin-top: 25px;
+}
